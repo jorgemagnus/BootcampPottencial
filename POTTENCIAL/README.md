@@ -1,8 +1,9 @@
 <h1>BOOTCAMP POTTENCIAL</h1>
-
-Empresa:  POTTENCIAL  <a href="https://pottencial.com.br/"> Clique aqui para visualizar o site da empresa</a>
-Tecnologias Usadas:  C#  e  SQL Server
-IDE: Vscode
+<p>
+Empresa:  POTTENCIAL  <a href="https://pottencial.com.br/"> Clique aqui para visualizar o site da empresa</a><br/>
+Tecnologias Usadas:  C#  e  SQL Server<br/>
+IDE: Vscode<br/>
+ </p>
 
 <h2>Estrutura do Bootcamp:</h2>
 
