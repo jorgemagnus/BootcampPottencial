@@ -1,0 +1,5 @@
+DateTime dataAtual = DateTime.Now.AddDays(5);// dia atual adicionado mais 5 dias.
+
+Console.WriteLine("Data atual completa: " + dataAtual);
+Console.WriteLine("Data atual dia/mês/ano: " + dataAtual.ToString("dd/MM/yyyy"));
+Console.WriteLine("Data atual dia/mês/ano Hora e Minuto: " + dataAtual.ToString("dd/MM/yyyy HH:mm"));

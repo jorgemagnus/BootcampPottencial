@@ -1,0 +1,4 @@
+int a = Convert.ToInt32("5"); //esse caso , vindo valor null, ele retorna 0 e não para o programa.
+int a = int.Parse("5");//esse caso, vindo valor null, ele retorna um erro e para o sistema.
+
+Console.WriteLine(a);

@@ -1,0 +1,6 @@
+string a = Convert.ToString(5);
+Console.WriteLine(a);
+
+int inteiro = 10;
+string b = inteiro.ToString(); // usar esse aqui pq todos os tipos tem ToString();
+Console.WriteLine(b);

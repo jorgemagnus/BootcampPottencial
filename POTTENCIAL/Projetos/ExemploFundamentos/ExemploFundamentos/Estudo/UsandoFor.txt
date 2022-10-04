@@ -1,0 +1,9 @@
+Console.WriteLine("Informe um número: ");
+int numero = Convert.ToInt32(Console.ReadLine());
+//estrutura do for:
+//for(contador;condição,incrementar contador)
+
+for(int contador = 0; contador <= 1000; contador++)
+{
+    Console.WriteLine($"{numero} x {contador} =  {numero * contador}");
+}

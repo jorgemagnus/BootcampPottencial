@@ -1,0 +1,23 @@
+string a = "15";
+int b = Convert.ToInt32(a);
+
+Console.WriteLine(b);
+
+
+
+// com erro:
+
+string d = "15-";
+int e = 0;
+
+int.TryParse(d, out e);
+
+Console.WriteLine(e);
+
+
+//Outra forma
+string x = "15";
+
+int.TryParse(x, out int v);
+
+Console.WriteLine(v);

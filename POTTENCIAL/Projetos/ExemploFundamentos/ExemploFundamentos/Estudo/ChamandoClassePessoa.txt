@@ -1,0 +1,8 @@
+using ExemploFundamentos.Common.Models;
+
+Pessoa p = new Pessoa();
+p.Nome = "Jorge Magnus";
+p.Idade = 47;
+p.Apresentar();
+
+

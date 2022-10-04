@@ -1,0 +1,20 @@
+List<string> listaString  = new List<string>();
+
+listaString.Add("SP");
+listaString.Add("BA");
+listaString.Add("MG");
+listaString.Add("RN");
+listaString.Add("RJ");
+listaString.Add("PE");
+listaString.Add("CE");
+listaString.Add("PB");
+
+Console.WriteLine($"Itens da minha lista: {listaString.Count} -> Capacidade: {listaString.Capacity}");
+listaString.Remove("RN");
+Console.WriteLine("Percorrendo a lista com o Foreach");
+int contadorForeach = 0;
+foreach(string item in listaString)
+{
+   Console.WriteLine($"Posição Nº {contadorForeach} - {item}");
+}
+Console.WriteLine($"Itens da minha lista(após remover RN): {listaString.Count} -> Capacidade: {listaString.Capacity}");

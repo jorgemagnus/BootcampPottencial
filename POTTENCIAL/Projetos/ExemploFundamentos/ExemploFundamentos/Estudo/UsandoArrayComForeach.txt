@@ -1,0 +1,15 @@
+int[]  arrayInteiros = new int[4];
+
+arrayInteiros[0] = 72;
+arrayInteiros[1] = 64;
+arrayInteiros[2] = 50;
+arrayInteiros[3] = 1;
+
+//Percorrendo o Array com o FOREACH - somente para listas e arrays.
+Console.WriteLine("Percorrando o Array com o FOREACH");
+int contadorForeach = 0;
+foreach(int saidaArrayValor in  arrayInteiros)
+{
+ Console.WriteLine($"Posição Nº {contadorForeach} - {saidaArrayValor}");
+ contadorForeach++;
+}

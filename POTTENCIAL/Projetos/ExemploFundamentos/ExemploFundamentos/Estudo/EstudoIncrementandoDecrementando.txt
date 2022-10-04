@@ -1,0 +1,12 @@
+
+int numeroIncremento = 10;
+Console.WriteLine("Incrementando 10");
+numeroIncremento++;
+Console.WriteLine(numeroIncremento);
+
+
+int numeroDecremento = 20;
+Console.WriteLine("\n");
+Console.WriteLine("Decrementando 20");
+numeroDecremento--;
+Console.WriteLine(numeroDecremento);

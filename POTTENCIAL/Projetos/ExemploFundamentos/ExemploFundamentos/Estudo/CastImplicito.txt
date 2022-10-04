@@ -1,0 +1,9 @@
+int a = 5;
+double b = a;
+Console.WriteLine("Máximo valor do tipo inteiro: " +int.MaxValue);
+Console.WriteLine(b);
+
+int c = 10;
+long d = c;
+Console.WriteLine("Máximo valor do tipo long: " +long.MaxValue);
+Console.WriteLine(d);
