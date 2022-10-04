@@ -1,19 +1,16 @@
-<h1>BOOTCAMP POTTENCIAL</h1>
+# BOOTCAMP POTTENCIAL
+
 <p>
-Empresa:  POTTENCIAL  <a href="https://pottencial.com.br/"> Clique aqui para visualizar o site da empresa</a><br/>
-Tecnologias Usadas:  C#  e  SQL Server<br/>
-IDE: Vscode<br/>
+Empresa: [POTTENCIAL] (https://www.pottencial.com.br/)  <br/> 
+Tecnologias Usadas:  C#  e  SQL Server   <br/>
+IDE: Vscode  <br/> 
  </p>
 
-<h2>Estrutura do Bootcamp:</h2>
+## Estrutura do Bootcamp
 
-<ol>
-    <li>Prapare-se para a Jornada</li>
-    <li>Princípios de Desenvolvimento de Software</li>
-    <li>Conhecendo a Plantaforna .NET com C#</li>
-    <li>Orientação a Objetos com C#</li>
-    <li>Banco de Dados Relacionais - SQL Server</li>
-    <li>Dominando o Ecossistema .NET</li>
-</ol>
-
-
+1. Prapare-se para a Jornada 
+2. Princípios de Desenvolvimento de Software 
+3. Conhecendo a Plantaforna .NET com C# 
+4. Orientação a Objetos com C# 
+5. Banco de Dados Relacionais - SQL Server 
+6. Dominando o Ecossistema .NET 
