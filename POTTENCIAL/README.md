@@ -1,8 +1,8 @@
 # BOOTCAMP POTTENCIAL
 
-> Empresa: [POTTENCIAL](https://www.pottencial.com.br/)
-> Tecnologias Usadas:  C#  e  SQL Server   
-> IDE: Vscode   
+Empresa: [POTTENCIAL](https://www.pottencial.com.br/) <br/>
+Tecnologias Usadas:  C#  e  SQL Server  <br/>
+IDE: Vscode <br/>
 
 
 ## Estrutura do Bootcamp
