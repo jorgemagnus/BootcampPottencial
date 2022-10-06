@@ -1,4 +1,7 @@
 ﻿using ExemploExplorando;
+using System.IO;
+using System.Linq;
+using System;
 
 Pessoa p1 = new Pessoa();
 Console.WriteLine("Digite se nome:");
