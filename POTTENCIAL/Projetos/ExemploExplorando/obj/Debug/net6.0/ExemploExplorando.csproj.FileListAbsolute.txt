@@ -1,0 +1,15 @@
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\bin\Debug\net6.0\ExemploExplorando.exe
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\bin\Debug\net6.0\ExemploExplorando.deps.json
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\bin\Debug\net6.0\ExemploExplorando.runtimeconfig.json
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\bin\Debug\net6.0\ExemploExplorando.dll
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\bin\Debug\net6.0\ExemploExplorando.pdb
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.csproj.AssemblyReference.cache
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.AssemblyInfoInputs.cache
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.AssemblyInfo.cs
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.csproj.CoreCompileInputs.cache
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.dll
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\obj\Debug\net6.0\refint\ExemploExplorando.dll
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.pdb
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.genruntimeconfig.cache
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\obj\Debug\net6.0\ref\ExemploExplorando.dll
