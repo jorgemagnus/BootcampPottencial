@@ -15,14 +15,20 @@ p1.Apresentar();
 */
 
 
-Pessoa p1 = new Pessoa(nome:"Leonardo",sobrenome:"Buta");
-Pessoa p2 = new Pessoa(nome:"Eduardo",sobrenome:"Neves Queiroz");
+Pessoa p1 = new Pessoa(nome:"Leonardo",sobrenome:"Buta",idade:40);
+Pessoa p2 = new Pessoa(nome:"Eduardo",sobrenome:"Neves Queiroz",idade:30);
+
+Console.WriteLine("bloco da classe Pessoa");
+p1.Apresentar();
+p2.Apresentar();
 
 Curso cursoDeIngles = new Curso();
 cursoDeIngles.Nome = "Ingles";
 cursoDeIngles.Alunos = new List<Pessoa>();
 
+Console.WriteLine("bloco da classe Curso");
 cursoDeIngles.AdicionarAluno(p1);
 cursoDeIngles.AdicionarAluno(p2);
 cursoDeIngles.ListarAlunos();
+
 

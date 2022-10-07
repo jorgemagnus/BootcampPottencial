@@ -18,7 +18,7 @@ namespace ExemploExplorando.Models
         public int ObterQuantidadeDeAlunosMatriculados()
         {
             int quantidade = Alunos.Count;
-            return quantidade;
+            return quantidade; 
         }
 
         public bool RemoverAluno(Pessoa aluno)
