@@ -2,6 +2,9 @@
 using System.IO;
 using System.Linq;
 using System;
+using System.Globalization;
+
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR"); //en-US  pt-BR
 
 /*
 Pessoa p1 = new Pessoa();
@@ -14,7 +17,7 @@ p1.Idade = Convert.ToInt32(Console.ReadLine());
 p1.Apresentar();
 */
 
-
+/*
 Pessoa p1 = new Pessoa(nome:"Leonardo",sobrenome:"Buta",idade:40);
 Pessoa p2 = new Pessoa(nome:"Eduardo",sobrenome:"Neves Queiroz",idade:30);
 
@@ -30,5 +33,10 @@ Console.WriteLine("bloco da classe Curso");
 cursoDeIngles.AdicionarAluno(p1);
 cursoDeIngles.AdicionarAluno(p2);
 cursoDeIngles.ListarAlunos();
+*/
+
+
+decimal valorMonetario = 2131282.40M;
+Console.WriteLine($"{valorMonetario:C}");
 
 
