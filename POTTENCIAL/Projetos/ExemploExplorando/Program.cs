@@ -4,7 +4,35 @@ using System.Linq;
 using System;
 using System.Globalization;
 
+
+DateTime data = DateTime.Now;
+Console.WriteLine(data);
+Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
+Console.WriteLine(data.ToString("dd/MM/yyyy"));
+Console.WriteLine(data.ToString("dd-MM-yyyy"));
+Console.WriteLine(data.ToShortDateString());
+Console.WriteLine(data.ToShortTimeString());
+
+
+/*
 CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR"); //en-US  pt-BR
+
+decimal valorMonetario = 1582.40M;
+Console.WriteLine($"{valorMonetario:C}");
+
+Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("en-US")));
+
+Console.WriteLine(valorMonetario.ToString("C3"));
+
+Console.WriteLine(valorMonetario.ToString("N3"));
+
+double porcentagem = .3421;
+Console.WriteLine(porcentagem.ToString("P"));
+
+int numero = 123456;
+Console.WriteLine(numero.ToString("##-##-##"));
+*/
+
 
 /*
 Pessoa p1 = new Pessoa();
@@ -36,7 +64,6 @@ cursoDeIngles.ListarAlunos();
 */
 
 
-decimal valorMonetario = 2131282.40M;
-Console.WriteLine($"{valorMonetario:C}");
+
 
 
