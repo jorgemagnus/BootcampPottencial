@@ -1,0 +1,7 @@
+DateTime data = DateTime.Now;
+Console.WriteLine(data);
+Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
+Console.WriteLine(data.ToString("dd/MM/yyyy"));
+Console.WriteLine(data.ToString("dd-MM-yyyy"));
+Console.WriteLine(data.ToShortDateString());
+Console.WriteLine(data.ToShortTimeString());

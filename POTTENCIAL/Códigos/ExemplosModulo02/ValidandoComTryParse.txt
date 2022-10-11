@@ -1,0 +1,21 @@
+string dataString = "2022-04-17 18:00";
+//modo mais seguro de converte uma data:
+bool sucesso = DateTime.TryParseExact(dataString, 
+                       "yyyy-MM-dd HH:mm", 
+                       CultureInfo.InvariantCulture, 
+                       DateTimeStyles.None, out DateTime data);
+
+if (sucesso)
+{
+    Console.WriteLine($"Conversão com sucesso! Data: {data}");
+}
+else
+{
+    Console.WriteLine($"{dataString} não é uma data válida.");
+}
+
+
+
+//esse modo é sensível a falhas é preferível usar a estrutura acima.
+//DateTime data = DateTime.Parse(dataString);
+//Console.WriteLine(data);
