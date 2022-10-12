@@ -4,32 +4,18 @@ using System.Linq;
 using System;
 using System.Globalization;
 
-try
+//new ExemploExcecao().Metodo1();
+
+Dictionary<string, string> estados = new Dictionary<string, string>();
+
+estados.Add("SP", "São Paulo");
+estados.Add("BA", "Bahia");
+estados.Add("MG", "Minas Gerais");
+
+foreach (var item in estados)
 {
-
-    string[] linhas = File.ReadAllLines("Arquivos/arquivo_Leitura.txt");
-
-    foreach (string linha in linhas)
-    {
-        Console.WriteLine(linha);
-    }
-
-} 
-catch(FileNotFoundException ex)
-{
-    Console.WriteLine($"Ocorreu um erro na leitura do arquivo. Arquivo não encontrado. {ex.Message}");
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
 }
-catch(DirectoryNotFoundException ex)
-{
-    Console.WriteLine($"Ocorreu um erro na leitura do arquivo. Caminho da pasta não encontrador /n "
-    + ex.Message);
-}
-catch(Exception ex)
-{
-    Console.WriteLine($"Ocorreu uma execeção genérica. {ex.Message}");
-}
-
-
 
 
 

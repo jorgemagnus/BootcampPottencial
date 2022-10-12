@@ -1,0 +1,19 @@
+Queue<int> fila = new Queue<int>(); // regra fifo, o primeiro que entra é o primeiro que sai.
+fila.Enqueue(2);
+fila.Enqueue(4);
+fila.Enqueue(6);
+fila.Enqueue(8);
+
+
+foreach (int item in fila)
+{
+    Console.WriteLine(item);
+}
+
+Console.WriteLine($"Removendo o elemento: {fila.Dequeue()}"); //remover elemento, sempre o primeiro da fila.
+fila.Enqueue(10);//adicionar elemento
+
+foreach (int item in fila)
+{
+    Console.WriteLine(item);
+}
