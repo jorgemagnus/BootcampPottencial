@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yVHbPt81z7+sOxTaEF8Z4ZXe5igzxSdjVqlpakZ1trNEFxZ5IvUgS1eE5XvQCiqaRYmVsws1penvVuwxHV9Trw==",
+  "dgSpecHash": "dHWO6AGnVUJxSeBMV/nEjrytiM+Fd1kl175KpzWP6Wq2aVGrqisZ7LW9AJ9q+38oBYknR5ZpNrYXo0d27aYUSQ==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\DIO\\BOOTCAMP\\POTTENCIAL\\Projetos\\ExemploExplorando\\ExemploExplorando.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jorge\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

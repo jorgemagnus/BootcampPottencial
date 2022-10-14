@@ -1,0 +1,19 @@
+int numero = 20;
+bool ehPar = false;
+
+ehPar = numero % 2 == 0;
+//solução com if tenário:
+Console.WriteLine($"O número {numero} é " + (ehPar ? "par" : "impar"));
+
+
+//if/else normal:
+/*
+if (numero % 2 == 0)
+{
+    Console.WriteLine($"O número {numero} é par.");
+}
+else
+{
+    Console.WriteLine($"O número {numero} é impar.");
+}
+*/

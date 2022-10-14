@@ -3,43 +3,14 @@ using System.IO;
 using System.Linq;
 using System;
 using System.Globalization;
+using Newtonsoft.Json;
 
 //new ExemploExcecao().Metodo1();
+Venda v1 = new Venda(1, "Material de escritório", 25.00M);
 
-LeituraArquivo arquivo = new LeituraArquivo(); //ver classe LeituraArquivo.cs
+string serializado = JsonConvert.SerializeObject(v1, Formatting.Indented);
 
-//se eu não quero usar uma variável da tupa, basta substituir por "_".
-//var(sucesso, linhasArquivo, _) 
+//escrevendo em um arquivo json
+File.WriteAllText("Arquivos/vendas.json", serializado);
 
-var(sucesso, linhasArquivo, quantidadeLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
-
-if (sucesso)
-{
-    Console.WriteLine($"Quantidade de linhas do arquivo é: {quantidadeLinhas}");
-    foreach (string linha in linhasArquivo)
-    {
-        Console.WriteLine(linha);
-    }
-}
-else
-{
-    Console.WriteLine("Não foi possível ler o arquivo");
-}
-
-
-
-/*
-//recomendavel usar essa forma.
-(int Id, string Nome, string Sobrenome, decimal Altura) tupla = (1, "Jorge", "Antunino", 1.80M); 
-
-// ValueTask<int, string, string, decimal> tupla2 = (1, "Jorge", "Antunino", 1.80M); não recomendável.
-
-// var tupla3 = Tuple.Create(1, "Jorge", "Antunino", 1.80M); não recomendável.
-
-
-Console.WriteLine($"ID: {tupla.Id}");
-Console.WriteLine($"nome: {tupla.Nome}");
-Console.WriteLine($"Sobrenome: {tupla.Sobrenome}");
-Console.WriteLine($"Altura: {tupla.Altura}");
-
-*/
+Console.WriteLine(serializado);

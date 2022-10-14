@@ -1,6 +1,6 @@
 LeituraArquivo arquivo = new LeituraArquivo();
 
-//se eu não quero usar uma variável da tupa, basta substituir por "_".
+//se eu não quero usar uma variável da tupla, basta substituir por "_".
 //var(sucesso, linhasArquivo, _) 
 
 var(sucesso, linhasArquivo, quantidadeLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt"); //Ver classe LeituraArquivo.cs

@@ -13,3 +13,5 @@ C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\obj\Debug\net6.0\
 C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.pdb
 C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.genruntimeconfig.cache
 C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\obj\Debug\net6.0\ref\ExemploExplorando.dll
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploExplorando\obj\Debug\net6.0\ExemploExplorando.csproj.CopyComplete
