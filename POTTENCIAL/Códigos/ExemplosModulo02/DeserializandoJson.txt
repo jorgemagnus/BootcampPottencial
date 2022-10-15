@@ -1,11 +1,6 @@
-﻿using ExemploExplorando.Models;
-using System.IO;
-using System.Linq;
-using System;
-using System.Globalization;
 using Newtonsoft.Json;
 
-//new ExemploExcecao().Metodo1();
+
 string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
 
 List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
