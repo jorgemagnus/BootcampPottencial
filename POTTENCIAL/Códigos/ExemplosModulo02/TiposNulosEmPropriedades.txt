@@ -1,13 +1,8 @@
-﻿using ExemploExplorando.Models;
-using System.IO;
-using System.Linq;
-using System;
-using System.Globalization;
 using Newtonsoft.Json;
 
 //tipos nulos na prática:
 
-//new ExemploExcecao().Metodo1();
+//na propriedade que está na classe Vendas.cs -> public decimal? Desconto{ get; set; } //coloca o "?" para poder receber valor null.
 
 
 string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");

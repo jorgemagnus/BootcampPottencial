@@ -1,0 +1,12 @@
+// as duas formas são válidas ou usa HasValue ou != null.
+
+bool? desejaReceberEmail = null;
+//if (desejaReceberEmail.HasValue && desejaReceberEmail.Value)
+if (desejaReceberEmail != null && desejaReceberEmail.Value)  
+{
+    Console.WriteLine("O usuário optou por receber e-mail.");
+}
+else
+{
+    Console.WriteLine("O Usuário não respondeu ou optou por não receber e-mail.");
+}
