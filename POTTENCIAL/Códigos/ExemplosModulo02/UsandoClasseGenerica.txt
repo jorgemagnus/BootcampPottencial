@@ -1,0 +1,16 @@
+//Testando um classe genérica.
+//o código da classe esta no arquivo -> ClasseGenericaMeuArray.txt
+//arquivo da classe -> MeuArray.cs
+
+MeuArray<int> arrayInteiro = new MeuArray<int>();
+
+arrayInteiro.AdicionarElementoArray(30);
+
+Console.WriteLine(arrayInteiro[0]);
+
+
+MeuArray<string> arrayString = new MeuArray<string>();
+
+arrayString.AdicionarElementoArray("Teste");
+
+Console.WriteLine(arrayString[0]);

@@ -1,0 +1,13 @@
+//tipo dinâmico.
+
+dynamic variavelDinamica = 4;
+Console.WriteLine($"Tipo de variável: {variavelDinamica.GetType()}, valor: {variavelDinamica}");
+
+variavelDinamica = "Texto";
+Console.WriteLine($"Tipo de variável: {variavelDinamica.GetType()}, valor: {variavelDinamica}");
+
+variavelDinamica = true;
+Console.WriteLine($"Tipo de variável: {variavelDinamica.GetType()}, valor: {variavelDinamica}");
+
+variavelDinamica = 4.10M;
+Console.WriteLine($"Tipo de variável: {variavelDinamica.GetType()}, valor: {variavelDinamica}");

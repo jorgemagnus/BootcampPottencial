@@ -1,0 +1,7 @@
+//Exemplo tipo anônimo:
+
+var tipoAnonimo = new {Nome = "Jorge Magnus", Sobrenome = "Antunino", Altura = 1.80M };
+
+Console.WriteLine("Nome: " + tipoAnonimo.Nome);
+Console.WriteLine($"Sobrenome: {tipoAnonimo.Sobrenome}");
+Console.WriteLine("Altura: " + tipoAnonimo.Altura);
