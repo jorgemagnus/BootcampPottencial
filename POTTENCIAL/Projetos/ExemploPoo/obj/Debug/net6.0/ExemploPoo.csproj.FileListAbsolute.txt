@@ -1,0 +1,15 @@
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploPoo\bin\Debug\net6.0\ExemploPoo.exe
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploPoo\bin\Debug\net6.0\ExemploPoo.deps.json
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploPoo\bin\Debug\net6.0\ExemploPoo.runtimeconfig.json
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploPoo\bin\Debug\net6.0\ExemploPoo.dll
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploPoo\bin\Debug\net6.0\ExemploPoo.pdb
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploPoo\obj\Debug\net6.0\ExemploPoo.csproj.AssemblyReference.cache
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploPoo\obj\Debug\net6.0\ExemploPoo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploPoo\obj\Debug\net6.0\ExemploPoo.AssemblyInfoInputs.cache
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploPoo\obj\Debug\net6.0\ExemploPoo.AssemblyInfo.cs
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploPoo\obj\Debug\net6.0\ExemploPoo.csproj.CoreCompileInputs.cache
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploPoo\obj\Debug\net6.0\ExemploPoo.dll
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploPoo\obj\Debug\net6.0\refint\ExemploPoo.dll
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploPoo\obj\Debug\net6.0\ExemploPoo.pdb
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploPoo\obj\Debug\net6.0\ExemploPoo.genruntimeconfig.cache
+C:\Projetos\DIO\BOOTCAMP\POTTENCIAL\Projetos\ExemploPoo\obj\Debug\net6.0\ref\ExemploPoo.dll
