@@ -7,10 +7,16 @@ namespace ExemploPoo.Models
 {
     public class Pessoa
     {
+        
+        public Pessoa(string nome)// construtor classe pai.
+        {
+            Nome = nome;
+        }
+
         public string  Nome { get; set; }   
         public int Idade { get; set; }
 
-        public void Apresentar()
+        public virtual void Apresentar() //método pode ser sobescrito usando virtual
         {
             Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade} anos!");
         }
